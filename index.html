@@ -43,9 +43,9 @@
         <hr>
         <!--SHOWCASE-->
         <header class="showcase">
-            <h2>Big news today</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum qui, deserunt omnis suscipit quas nulla tempore libero ipsam! Fuga ipsum quo error eos molestiae voluptatum nam assumenda laborum at!</p>
-            <a href="#" class="btn">Read more <i class="fas fa-angle-double-right"></i></a>
+            <h2>Space Cake</h2>
+            <p>Un sabor fuera de este mundo.</p>
+            <a href="#" class="btn">Hacer Pedido<i class="fas fa-angle-double-right"></i></a>
         </header>
 
         <!--News Cards-->
@@ -120,44 +120,32 @@
             </div>
         </section>
 
-        <center>
+        <div class="forms">
             <h2>Solicitar Pedido</h2>
-            <br>
-            <br><br>
             <form action="">
-                <label for="">Nombre: </label>
-                <input type="text" required>
-                <br>
-                <br>
-
-                <label for="">Apellido: </label>
-                <input type="text" required>
-                <br>
-                <br>
-
-                <label for="">Telefono: </label>
-                <input type="tel" required>
-                <br>
-                <br>
-
-                <label for="">Correo: </label>
-                <input type="email">
-                <br>
-                <br>
-
-                <label for="">Descripcion del pastel: </label>
-                <input type="text">
-                <br>
+                <input type="text" class="formulario" required placeholder="Nombre">
+                <input type="text" class="formulario" required placeholder="Apellido">
+                <input type="tel" class="formulario" required placeholder="Telefono">
+                <input type="email" class="formulario" placeholder="E-mail" required>
+                <input type="text" class="formulario" placeholder="Descripcion" required>
+        
+                <select name="Sabor">
+                    <option value="1">Fresa</option>
+                    <option value="2">Chocolate</option>
+                    <option value="3">Vainilla</option>
+                    <option value="4">Tres leches</option>
+                </select>
+                <select name="decoracion">
+                    <option value="1">Decoracion 1<img src="assets/img/tematica.jpg" alt="tematica"></option>
+                    <option value="2">Chocolate</option>
+                    <option value="3">Vainilla</option>
+                    <option value="4">Tres leches</option>
+                </select>
                 <br>
 
-                <label for="">Sabor: </label>
-                <input type="text">
-                <br>
-                <br>
-
-                <input type="submit">
+                <input type="submit" class="btn">
             </form>
-        </center>
+        </div>
 
         <section class="social">
             <p>Follow</p>
